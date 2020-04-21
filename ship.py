@@ -12,7 +12,8 @@ class Ship:
         self.screen_rect = ai_game.screen.get_rect()
 
         # Load the ship image and get its rect.
-        self.image = pygame.image.load('images/poop.bmp') # Attempting to resize some how
+        pygame.transform.scale(( (pygame.image.load('images/poop.bmp').convert_alpha() ), (1920, 1080) )
+        #self.image = pygame.image.load('images/poop.bmp') # Attempting to resize some how
         self.rect = self.image.get_rect()                 # using pygame.transform.scale()
 
         # Start each new ship at the bottom center of the screen.
