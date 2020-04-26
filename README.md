@@ -13,7 +13,7 @@ Keypresses are unresponsive at times.
 
 ➡ Right Arrow 
 
-🇶 Q Key to quit
+Q Key to quit
 
 ## Contributing
 Feel free to use the code however!
