@@ -9,11 +9,11 @@ Keypresses are unresponsive at times.
 
 ## Controls
 
-Left Arrow 
+⬅ Left Arrow 
 
-Right Arrow 
+➡ Right Arrow 
 
-Q Key to quit
+🇶 Q Key to quit
 
 ## Contributing
 Feel free to use the code however!
