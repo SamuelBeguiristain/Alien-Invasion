@@ -13,7 +13,7 @@ class Ship:
         self.settings = ai_game.settings
 
         # Load the ship image and get its rect.
-        self.image = pygame.transform.scale((pygame.image.load('images/poop.bmp').convert_alpha()), (1500, 1500))
+        self.image = pygame.transform.scale((pygame.image.load('images/ship.png')), (50, 65))
         #self.image = pygame.image.load('images/poop.bmp') # Attempting to resize some how
         self.rect = self.image.get_rect()                 # using pygame.transform.scale()
 
